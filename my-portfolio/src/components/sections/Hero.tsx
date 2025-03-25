@@ -9,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
   const { theme } = useTheme();
   const [isLoaded, setIsLoaded] = useState(false);
   const [typedText, setTypedText] = useState("");
-  const fullText = "Software Developer with 5 years of experience";
+  const fullText = "Software Developer with 5+ years of experience";
 
   // Use refs to maintain timer references between renders
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -73,10 +73,10 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
     };
   }, [fullText]);
 
-  // Handle highlighting for 5 years" text
+  // Handle highlighting for 5+ years" text
   const renderTypedText = () => {
     const beforeHighlight = "Software Developer with ";
-    const highlight = "5 years";
+    const highlight = "5+ years";
 
     if (!typedText) return null;
 

@@ -67,15 +67,16 @@ const Projects: React.FC = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex space-x-4">
+                <div className="flex gap-3 mt-auto">
                   {project.link && (
                     <a
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-500 transition-colors"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-purple-600 to-indigo-500 text-white text-sm rounded-md hover:from-purple-700 hover:to-indigo-600 transition-all shadow hover:shadow-md transform hover:translate-y-[-1px]"
                     >
-                      <ExternalLink size={16} className="mr-1" /> Demo
+                      <ExternalLink size={14} />
+                      <span>Demo</span>
                     </a>
                   )}
                   {project.github && (
@@ -83,9 +84,10 @@ const Projects: React.FC = () => {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-indigo-500 transition-colors"
+                      className={`inline-flex items-center gap-1.5 px-3 py-1.5 border border-purple-500 text-purple-600 dark:text-purple-400 text-sm rounded-md hover:bg-purple-500/10 transition-all transform hover:translate-y-[-1px]`}
                     >
-                      <Github size={16} className="mr-1" /> Code
+                      <Github size={14} />
+                      <span>Code</span>
                     </a>
                   )}
                 </div>

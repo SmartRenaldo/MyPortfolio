@@ -2,7 +2,7 @@ import { Experience } from "../types";
 
 export const experiences: Experience[] = [
   {
-    id: 2,
+    id: 1,
     company: "Lumient",
     position: "Software Engineer",
     duration: "2022 - 2025",
@@ -26,7 +26,7 @@ export const experiences: Experience[] = [
       },
       {
         image: "/images/elders_solar_panels_roof_ravenhall.jpeg",
-        alt: "Elders Solar Panels Roof Ravenhall",
+        alt: "Elders Solar Panels Roof",
         url: "https://elders.com.au/our-services/news-advice/2023/elders-delivering-end-to-end-wool-handling-service/",
       },
       {
@@ -38,6 +38,27 @@ export const experiences: Experience[] = [
         image: "/images/jive_connect.jpeg",
         alt: "Jive Connect",
         url: "https://www.jiveconnect.com.au/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    company: "Zhihu",
+    position: "Software Engineer",
+    duration: "2021 - 2021",
+    description: [
+      "Developed and maintained responsive web applications using React.js and Node.js",
+      "Reduced page load time by 42% through code optimisation and implementing lazy loading techniques",
+      "Built RESTful APIs with Express.js, improving data retrieval efficiency by 35%",
+      "Implemented state management using Redux, reducing component rendering time by 25%",
+      "Collaborated with UX/UI designers to implement visual elements, increasing user engagement by 20%",
+      "Identified and fixed 40+ bugs, improving application stability by 15%",
+    ],
+    projects: [
+      {
+        image: "/images/zhihu.png",
+        alt: "Zhihu",
+        url: "https://ir.zhihu.com/Investor-Home",
       },
     ],
   },
