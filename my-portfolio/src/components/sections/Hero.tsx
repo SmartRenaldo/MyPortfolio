@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Code, Github, Linkedin, Mail } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 
 interface HeroProps {
@@ -16,7 +15,6 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const borderColor = theme === "dark" ? "border-gray-700" : "border-gray-200";
-  const secondaryBgColor = theme === "dark" ? "bg-gray-800" : "bg-gray-100";
 
   // Typing animation effect
   useEffect(() => {
