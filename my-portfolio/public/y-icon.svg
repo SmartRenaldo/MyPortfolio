@@ -1,0 +1,26 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Modern geometric Y -->
+  <path d="M7 6L16 15L25 6" stroke="url(#modernGradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+  <path d="M16 15L16 26" stroke="url(#modernGradient)" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Design accent square -->
+  <rect x="21" y="2" width="4" height="4" fill="#C084FC" />
+  
+  <!-- Decorative accent line -->
+  <path d="M4 22L8 26" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Semi-transparent circle accent -->
+  <circle cx="24" cy="22" r="3" fill="url(#circleGradient)" fill-opacity="0.7"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="modernGradient" x1="7" y1="6" x2="25" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="circleGradient" x1="21" y1="19" x2="27" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C084FC"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+</svg>
