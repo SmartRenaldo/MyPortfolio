@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">Send a Message</h3>
             {/* Replace with your Formspree endpoint */}
             <form
-              action="https://formspree.io/f/xzzegarg"
+              action="https://formspree.io/f/myzepnjk"
               method="POST"
               className="space-y-4"
               onSubmit={() => handleSubmitSuccess()}

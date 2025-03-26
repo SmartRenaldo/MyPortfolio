@@ -90,7 +90,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, scrollToSection }) => {
                 />
               </a>
               <a
-                href="mailto:awesomerenaldo@gmail.com"
+                href="mailto:yiqil.inbox@gmail.com"
                 target="_blank"
                 className="p-1.5 rounded-full hover:bg-purple-400/20 transition-colors"
               >
@@ -221,7 +221,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection, scrollToSection }) => {
                 />
               </a>
               <a
-                href="mailto:awesomerenaldo@gmail.com"
+                href="mailto:yiqil.inbox@gmail.com"
                 target="_blank"
                 className="p-1.5 rounded-full hover:bg-purple-400/20 transition-colors"
               >
