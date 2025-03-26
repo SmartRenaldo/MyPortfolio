@@ -35,19 +35,21 @@ const Contact: React.FC = () => {
                 <div className="text-purple-600 bg-gradient-to-r from-purple-600 to-indigo-500 p-1 rounded-full">
                   <Mail size={18} className="text-white" />
                 </div>
-                <span className="ml-3">your.email@example.com</span>
+                <span className="ml-3">yiqil.inbox@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <div className="text-purple-600 bg-gradient-to-r from-purple-600 to-indigo-500 p-1 rounded-full">
                   <Linkedin size={18} className="text-white" />
                 </div>
-                <span className="ml-3">linkedin.com/in/yourusername</span>
+                <span className="ml-3">
+                  https://www.linkedin.com/in/yiqi-li-56b826234/
+                </span>
               </div>
               <div className="flex items-center">
                 <div className="text-purple-600 bg-gradient-to-r from-purple-600 to-indigo-500 p-1 rounded-full">
                   <Github size={18} className="text-white" />
                 </div>
-                <span className="ml-3">github.com/yourusername</span>
+                <span className="ml-3">https://github.com/SmartRenaldo</span>
               </div>
             </div>
 
