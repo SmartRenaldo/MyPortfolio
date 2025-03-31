@@ -3,13 +3,19 @@ import { Project } from "../types";
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "AU Used Car Valuation",
     description:
-      "Full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    link: "https://example.com/ecommerce",
-    github: "https://github.com/username/ecommerce",
-    image: "/images/project1.jpg",
+      "Get a precise market value estimation for your used car with our intelligent tool, completely free.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Recharts",
+      "Lucide React",
+    ],
+    link: "https://oz-auto-value.vercel.app/",
+    github: "https://github.com/SmartRenaldo/oz-auto-value",
+    image: "/images/ozautovalue.jpg",
     videoUrl: "https://www.youtube.com/watch?v=your-video-id-1",
     featured: true,
   },
