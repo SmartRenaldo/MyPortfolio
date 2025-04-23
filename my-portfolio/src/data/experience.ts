@@ -8,7 +8,8 @@ export const experiences: Experience[] = [
     duration: "2022 - 2025",
     description: [
       "Built scalable ASP.NET Core apps with RESTful APIs (SQL/PostgreSQL), optimising performance to slash response times by 30%",
-      "Led 5-dev Agile squad, mentoring juniors on C#/.NET Core patterns while delivering features on schedule",
+      "Developed robust Java applications (Spring Boot/Hibernate), streamlining data persistence and boosting backend performance by 35%",
+      "Led 3-dev Agile squad, mentoring juniors in coding best practices while delivering features on schedule",
       "Migrated legacy WCF services to .NET Core APIs, cutting tech debt and boosting maintainability",
       "Automated CI/CD pipelines via Azure DevOps + PowerShell, halving deployment time",
       "Dropped SQL query times 40% through indexing tweaks and query optimisation",
