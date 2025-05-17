@@ -24,7 +24,14 @@ export const projects: Project[] = [
     title: "Snake Battle",
     description:
       "Slither, outsmart mates, feast. Expand or get gulped—strategic strikes rule the outback arena. Snake showdown!",
-    technologies: ["React", "TypeScript", "Vite", "Canvas", "Three.js"],
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Canvas",
+      "Three.js",
+      "Vitest",
+    ],
     link: "https://snake-battle-yiqi.vercel.app/",
     github: "https://github.com/SmartRenaldo/snake-battle",
     image: "/images/snake-battle.jpg",
