@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
     duration: "2021 - 2021",
     description: [
       "Developed and maintained responsive web applications using React.js and Node.js",
-      "Reduced page load time by 42% through code optimisation and implementing lazy loading techniques",
+      "Reduced page load time by 40% through code optimisation and implementing lazy loading techniques",
       "Built RESTful APIs with Express.js, improving data retrieval efficiency by 35%",
       "Implemented state management using Redux, reducing component rendering time by 25%",
       "Collaborated with UX/UI designers to implement visual elements, increasing user engagement by 20%",
